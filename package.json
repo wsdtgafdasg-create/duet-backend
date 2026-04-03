@@ -1,22 +1,15 @@
 {
   "name": "jamvibes-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start":"node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.0",
     "express": "^5.2.1",
     "socket.io": "^4.8.3",
-    "youtube-dl-exec": "^3.1.4",
-    "yt-dlp-exec": "^1.0.2",
     "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
